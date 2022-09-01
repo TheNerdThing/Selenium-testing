@@ -48,7 +48,14 @@
       "id": "8ed032c6-04ca-4661-8324-93fdf26b588f",
       "comment": "",
       "command": "runScript",
-      "target": "window.scrollTo(0,500)",
+      "target": "window.scrollTo(0,2000)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "090f642a-e6ce-440d-8b1a-b9fe80cf955c",
+      "comment": "",
+      "command": "close",
+      "target": "",
       "targets": [],
       "value": ""
     }]
@@ -266,6 +273,200 @@
       "comment": "",
       "command": "runScript",
       "target": "window.scrollTo(0,2438)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "aeb36aa2-3fea-469e-aa85-8697ca459129",
+    "name": "click many links",
+    "commands": [{
+      "id": "33bd09f8-839a-4bf6-8e7a-e0891ec06b05",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53f0f9ef-1afc-4254-99b3-63f6a21173da",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccd05527-1d9e-4dce-a21f-a97a898c888b",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "THIS is a test"
+    }, {
+      "id": "b410819f-f47f-4749-b280-183995f21468",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "0ee5d7b1-b5af-4b81-99c1-f44c743d85e1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4.800000190734863)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dfd0986-8800-4410-a383-8bffbe8705ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MjjYud:nth-child(3) .LC20lb",
+      "targets": [
+        ["css=.MjjYud:nth-child(3) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div[3]/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//div/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'This is a test - Wikipedia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a2aed03-1936-4819-bb68-6bb26db5d10e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,556.7999877929688)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dcc1b0e2-92a2-448d-b6d0-2c8912e25d9f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,840.7999877929688)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0404616-63ee-4699-bc30-8ff53356638f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=testing of the Emergency Alert System",
+      "targets": [
+        ["linkText=testing of the Emergency Alert System", "linkText"],
+        ["css=.mw-parser-output li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'testing of the Emergency Alert System')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Emergency_Alert_System#System_tests')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'testing of the Emergency Alert System')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7423a0c-dc71-404f-95db-73663131b538",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(49) span",
+      "targets": [
+        ["css=p:nth-child(49) span", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[25]/sup[2]/i/a/span", "xpath:idRelative"],
+        ["xpath=//p[25]/sup[2]/i/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94a609e0-ea01-464e-82ea-55122d921191",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(52) a",
+      "targets": [
+        ["css=ul:nth-child(52) a", "css:finder"],
+        ["xpath=(//a[contains(text(),'ISBN')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/ul[2]/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Wikipedia:ISBN')]", "xpath:href"],
+        ["xpath=//ul[2]/li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f143d27-0b01-4097-80db-868f4d821430",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=International Standard Book Numbers",
+      "targets": [
+        ["linkText=International Standard Book Numbers", "linkText"],
+        ["css=p:nth-child(7) > .mw-redirect:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'International Standard Book Numbers')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/International_Standard_Book_Number')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'International Standard Book Numbers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd3300b0-b047-4aaa-8cba-116f91c6e1bc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=identifier",
+      "targets": [
+        ["linkText=identifier", "linkText"],
+        ["css=p:nth-child(6) > a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'identifier')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/p[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Identifier')]", "xpath:href"],
+        ["xpath=//p[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'identifier')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45fcfcb1-fa38-46bc-b58c-ffdf9862fb59",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,135.1999969482422)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b1297b9-49cc-423d-86a3-adf640872ac1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,210.39999389648438)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9df5450e-a084-484f-b16f-8ab607c4f3d7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,591.2000122070312)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15512d66-42be-4f3a-880c-494b59017e05",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,840.7999877929688)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "226db2f4-70ae-4f35-aa80-ccac1d750e8b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=countable",
+      "targets": [
+        ["linkText=countable", "linkText"],
+        ["css=p:nth-child(4) > .mw-redirect", "css:finder"],
+        ["xpath=//a[contains(text(),'countable')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Countable')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'countable')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43841395-36ca-4fb4-a7e3-06b5dac4b8f4",
+      "comment": "",
+      "command": "close",
+      "target": "",
       "targets": [],
       "value": ""
     }]
