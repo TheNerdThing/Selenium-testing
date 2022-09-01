@@ -484,7 +484,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["59e1ed02-bc03-45d9-9d58-12f2ccfefc8e"]
+    "tests": ["59e1ed02-bc03-45d9-9d58-12f2ccfefc8e", "aeb36aa2-3fea-469e-aa85-8697ca459129"]
   }],
   "urls": ["https://www.google.com/"],
   "plugins": []
